@@ -66,12 +66,10 @@ public class HomePage extends BaseClass{
                         this.clickElementByXpath(this.waitUntilElementToBeClickable(_carBundleOption, timeOut));
                         break;
                     case "flight":
-                        this.waitUntilElementToBeClickable(_flightBundleOption, timeOut);
-                        this.clickElementByXpath(_flightBundleOption);
+                        this.clickElementByXpath(this.waitUntilElementToBeClickable(_flightBundleOption, timeOut));
                         break;
                     case "hotel":
-                        this.waitUntilElementToBeClickable(_hotelBundleOption, timeOut);
-                        this.clickElementByXpath(_hotelBundleOption);
+                        this.clickElementByXpath(this.waitUntilElementToBeClickable(_hotelBundleOption, timeOut));
                         break;
                     default:
                         throw new Exception();
