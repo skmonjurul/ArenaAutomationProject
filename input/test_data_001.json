@@ -1,0 +1,16 @@
+{
+"test_data": {
+  "location": {
+    "from": "SFO",
+    "to": "LAX"
+  },
+  "date": {
+    "depart": 1,
+    "return": 21
+  },
+  "time": {
+    "depart": "Evening",
+    "return": "Morning"
+  }
+}
+}
