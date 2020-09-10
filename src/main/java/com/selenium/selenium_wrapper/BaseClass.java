@@ -12,11 +12,9 @@ public class BaseClass extends Object{
     public static WebDriver driver;
     WebDriverWait explicitWait;
     Wait<WebDriver> fluentWait;
-
-
-    public BaseClass(){
-
-    }
+//
+//
+    public BaseClass() { }
 
     public BaseClass(String browser){
         driver = SeleniumDriver.getDriver(browser);
